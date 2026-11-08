@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-label="Retro BIOS boot screen: Adam Gazdiev, System &amp; Software Engineer">
+<style>
+text { font-family: 'Courier New', Courier, 'DejaVu Sans Mono', 'Liberation Mono', monospace; font-size: 15px; white-space: pre; }
+.l { opacity: 0; animation: show .05s linear forwards; }
+.f { opacity: 0; animation: show .05s linear forwards, hide .05s linear forwards; }
+.cur { opacity: 0; animation: show .05s linear forwards, blink 1.06s steps(1) infinite; }
+@keyframes show { to { opacity: 1; } }
+@keyframes hide { to { opacity: 0; } }
+@keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .l, .cur { opacity: 0; animation: none; opacity: 1; }
+  .f { display: none; }
+}
+</style>
+<rect width="880" height="420" rx="8" fill="#000"/>
+<text class="l" x="28" y="40" style="animation-delay:0.20s"><tspan fill="#ffffff">Gazdiev Modular BIOS v2.2, An Engineering Ally</tspan></text>
+<text class="l" x="28" y="61" style="animation-delay:0.20s"><tspan fill="#c0c0c0">Copyright (C) 1994-2026, Adam Gazdiev</tspan></text>
+<text class="l" x="28" y="103" style="animation-delay:0.70s"><tspan fill="#ffb000">SYSTEM &amp; SOFTWARE ENGINEER (R&amp;D)</tspan><tspan fill="#c0c0c0">  -  Belgium, EU</tspan></text>
+<text class="f" x="28" y="145" style="animation-delay:1.20s,1.34s" fill="#c0c0c0">Memory Test : 64K</text>
+<text class="f" x="28" y="145" style="animation-delay:1.34s,1.48s" fill="#c0c0c0">Memory Test : 128K</text>
+<text class="f" x="28" y="145" style="animation-delay:1.48s,1.62s" fill="#c0c0c0">Memory Test : 256K</text>
+<text class="f" x="28" y="145" style="animation-delay:1.62s,1.76s" fill="#c0c0c0">Memory Test : 512K</text>
+<text class="l" x="28" y="145" style="animation-delay:1.76s"><tspan fill="#c0c0c0">Memory Test : 640K </tspan></text>
+<text class="l" x="28" y="145" style="animation-delay:1.91s" xml:space="preserve"><tspan fill="none">                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="187" style="animation-delay:2.26s"><tspan fill="#c0c0c0">Detecting interfaces ...</tspan></text>
+<text class="l" x="28" y="208" style="animation-delay:2.71s"><tspan fill="#c0c0c0">  Payments &amp; billing </tspan><tspan fill="#7a7a7a">.............</tspan><tspan fill="#c0c0c0"> </tspan></text>
+<text class="l" x="28" y="208" style="animation-delay:2.93s" xml:space="preserve"><tspan fill="none">                                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="208" style="animation-delay:2.93s" xml:space="preserve"><tspan fill="none">                                       </tspan><tspan fill="#7a7a7a">[stripe]</tspan></text>
+<text class="l" x="28" y="229" style="animation-delay:3.09s"><tspan fill="#c0c0c0">  Identity &amp; auth </tspan><tspan fill="#7a7a7a">................</tspan><tspan fill="#c0c0c0"> </tspan></text>
+<text class="l" x="28" y="229" style="animation-delay:3.31s" xml:space="preserve"><tspan fill="none">                                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="229" style="animation-delay:3.31s" xml:space="preserve"><tspan fill="none">                                       </tspan><tspan fill="#7a7a7a">[jwt / sso]</tspan></text>
+<text class="l" x="28" y="250" style="animation-delay:3.47s"><tspan fill="#c0c0c0">  Data audit &amp; reconciliation </tspan><tspan fill="#7a7a7a">....</tspan><tspan fill="#c0c0c0"> </tspan></text>
+<text class="l" x="28" y="250" style="animation-delay:3.69s" xml:space="preserve"><tspan fill="none">                                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="250" style="animation-delay:3.69s" xml:space="preserve"><tspan fill="none">                                       </tspan><tspan fill="#7a7a7a">[sync]</tspan></text>
+<text class="l" x="28" y="271" style="animation-delay:3.85s"><tspan fill="#c0c0c0">  3D geometry &amp; point clouds </tspan><tspan fill="#7a7a7a">.....</tspan><tspan fill="#c0c0c0"> </tspan></text>
+<text class="l" x="28" y="271" style="animation-delay:4.07s" xml:space="preserve"><tspan fill="none">                                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="271" style="animation-delay:4.07s" xml:space="preserve"><tspan fill="none">                                       </tspan><tspan fill="#7a7a7a">[lidar]</tspan></text>
+<text class="l" x="28" y="292" style="animation-delay:4.23s"><tspan fill="#c0c0c0">  Tests &amp; CI pipeline </tspan><tspan fill="#7a7a7a">............</tspan><tspan fill="#c0c0c0"> </tspan></text>
+<text class="l" x="28" y="292" style="animation-delay:4.45s" xml:space="preserve"><tspan fill="none">                                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="292" style="animation-delay:4.45s" xml:space="preserve"><tspan fill="none">                                       </tspan><tspan fill="#7a7a7a">[jenkins]</tspan></text>
+<text class="l" x="28" y="313" style="animation-delay:4.61s"><tspan fill="#c0c0c0">Checking edge cases </tspan><tspan fill="#7a7a7a">..............</tspan><tspan fill="#c0c0c0"> </tspan></text>
+<text class="l" x="28" y="313" style="animation-delay:5.11s" xml:space="preserve"><tspan fill="none">                                   </tspan><tspan fill="#55ff55">OK</tspan></text>
+<text class="l" x="28" y="355" style="animation-delay:5.51s"><tspan fill="#c0c0c0">Booting from Bitbucket ... public samples below </tspan></text>
+<text class="cur" x="28" y="355" style="animation-delay:5.51s,5.51s" xml:space="preserve"><tspan fill="none">                                                </tspan><tspan fill="#ffffff">_</tspan></text>
+<text x="28" y="402" fill="#c0c0c0">Press <tspan fill="#ffffff">DEL</tspan> to enter SETUP  ·  gazdiev.dev</text>
+</svg>
